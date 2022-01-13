@@ -1,0 +1,10 @@
+{application, epbkdf2,
+ [{description, "Library implementing PBKDF2"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env,[]},
+  {modules, [epbkdf2]},
+  {licenses, ["ISC"]},
+  {links, []}
+ ]}.
